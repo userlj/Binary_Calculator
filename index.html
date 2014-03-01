@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<link rel="shortcut icon" href="images/icon/meng_full.ico"/>
+
+<title>cs422 Project1-Lingjie</title>
+</head>
+
+<body>
+<center>
+<br>
+<fieldset style="width:180px"><br>
+<fieldset style="width:180px"><br><legend><b>Binary Calculator</b></legend>
+
+<form action="http://harvey.binghamton.edu/~lmeng4/cgi-bin/calc.py" method="post">
+
+<br><input type="text" style="text-align:right; width:175px; height:40px;" name="output" value="0" readonly="readonly">
+
+<table>
+<tr>
+<td><input type=submit name="op" value="0" style="width:55px; height:40px">
+<td><input type=submit name="op" value="1" style="width:55px; height:40px">
+<td><input type=submit name="op" value="C" style="width:55px; height:40px">
+<tr>
+<td><input type=submit name="op" value="AND" style="width:55px; height:40px">
+<td><input type=submit name="op" value="OR" style="width:55px; height:40px">
+<td><input type=submit name="op" value="XOR" style="width:55px; height:40px">
+<tr>
+<td><input type=submit name="op" value="+" style="width:55px; height:40px">
+<td><input type=submit name="op" value="-" style="width:55px; height:40px">
+<td><input type=submit name="op" value="=" style="width:55px; height:40px">
+<tr>
+<td><input type=submit name="op" value="MC" style="width:55px; height:40px">
+<td><input type=submit name="op" value="MR" style="width:55px; height:40px">
+<td><input type=submit name="op" value="MS" style="width:55px; height:40px">
+
+</fieldset></fieldset>
+
+<input type="hidden" name="hidden_mem" value="0">
+<input type="hidden" name="state" value="normal">
+</table>
+</form>
+</center>
+</body>
+</html>
